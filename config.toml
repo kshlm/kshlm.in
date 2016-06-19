@@ -1,0 +1,22 @@
+baseurl = "https://kshlm.in/"
+languageCode = "en-us"
+title = "kshlm's blog"
+theme = "lithium"
+
+[permalinks]
+  post = "/:slug"
+  page = "/:slug"
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about/"
+
+[params]
+  description = "My (very) rarely update blog about nothing in particular"
+  author = "Kaushal M"
+  favicon = "favicon.png"
+
+  [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
