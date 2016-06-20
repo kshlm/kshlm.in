@@ -21,3 +21,8 @@ googleAnalytics="UA-50804986-2"
     url = "logo.png"
     width = 50
     height = 50
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
