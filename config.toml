@@ -2,6 +2,7 @@ baseurl = "https://kshlm.in/"
 languageCode = "en-us"
 title = "kshlm's blog"
 theme = "lithium"
+googleAnalytics="UA-50804986-2"
 
 [permalinks]
   post = "/:slug"
