@@ -26,3 +26,7 @@ googleAnalytics="UA-50804986-2"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
