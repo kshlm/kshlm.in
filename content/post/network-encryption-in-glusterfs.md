@@ -36,7 +36,7 @@ Setting up network encryption involves the following files and  volume options.
     - `auth.ssl-allow`
 
 ### Files
-==Every server and every client needs all the files to be present==, unless mentioned otherwise.
+<mark>Every server and every client needs all the files to be present</mark>, unless mentioned otherwise.
 
 - `/etc/ssl/glusterfs.pem`
 	This is the certificate file containing the systems unique, signed TLS certificate. This file is unique for each system and should not be shared with others.
@@ -45,23 +45,23 @@ Setting up network encryption involves the following files and  volume options.
 	This file contains the systems unique private key. This file should not be shared with others.
  
 - `/etc/ssl/glusterfs.ca`
-	This file contains the certificates of the Certificate Authorities (CA) who have signed the certificates. This file is not unique and should be the ==same on all servers== in the trusted storage pool. All the clients also should have the same file, but not necessarily the same one as the servers. GlusterFS does not use the global CA certs that come with the system.
+	This file contains the certificates of the Certificate Authorities (CA) who have signed the certificates. This file is not unique and should be the <mark>same on all servers</mark> in the trusted storage pool. All the clients also should have the same file, but not necessarily the same one as the servers. GlusterFS does not use the global CA certs that come with the system.
     The CA file on the servers should contain the certificates of the signing CA for all the servers and all the clients. The CA file on the clients should contain the certificates of the signing CA for all the servers.  
     In case self-signed certificates are being used, the CA file for the servers is a concatenation of the certificate files `/etc/ssl/glusterfs.pem` of every server and every client. The client CA file is a concatenation of the certificate files of every server.
 
 - `/var/lib/glusterd/secure-access`
-	The presence of this file ==enables network encryption for the management connections==, ie. connections between GlusterD's and the connection between clients and GlusterDs used to fetch volfiles and notify the clients of changes to volfiles. This is just an empty file.  
+	The presence of this file <mark>enables network encryption for the management connections</mark>, ie. connections between GlusterD's and the connection between clients and GlusterDs used to fetch volfiles and notify the clients of changes to volfiles. This is just an empty file.  
     If management encryption is not required, it is not necessary to have this file. If management encryption is required, this file should be present on all the servers and all the clients. This is required on the clients as well, to indicate the mount command to use encrypted connection to retrieve the volfile.
 
 ### Volume options
 - `server.ssl`,`client.ssl`
-	These options are used to enable encryption on the I/O connections for a volume. ==Both of these options should be set and unset as a pair==, ie. neither option can be set without setting the other.
+	These options are used to enable encryption on the I/O connections for a volume. <mark>Both of these options should be set and unset as a pair</mark>, ie. neither option can be set without setting the other.
     
 - `auth.ssl-allow`
 	This option is used to authorize clients which are allowed to acces the volume, to be used in place of `auth.allow` when using I/O encryption. It should be set to a comma seprated list of *common names* of the clients which are to be allowed to access the volume. Keep in mind that the common-name is the name used when creating the signed certificates, not the address/hostname of the client (though in most cases, the hostname is used as the common name).  
     > NOTE: There is a slight behavioural difference of this option between GlusterFS-3.6 and GlusterFS-3.7. In GlusterFS-3.6 not setting `auth.ssl-allow` prevents all clients from accessing to the volume. So by default no client is authorized to access the volume. To allow access to all TLS authenticated clients, it was necessary to set the option to `'*'`. In GlusterFS-3.7, not setting `auth.ssl-allow` is the same as setting it to `'*'`. So by default all TLS authenticated clients are allowed to access the volume.  
     
-    The ==common names of the servers in the storage pool *must* be present in this list, along with the clients==, to allow GlusterFS server side services like the NFS server, self-heal daemon, quota daemon etc., to access the volume (this is not needed with GlusterFS-3.7 if `auth.ssl-allow` is left empty).
+    The <mark>common names of the servers in the storage pool *must* be present in this list, along with the clients</mark>, to allow GlusterFS server side services like the NFS server, self-heal daemon, quota daemon etc., to access the volume (this is not needed with GlusterFS-3.7 if `auth.ssl-allow` is left empty).
     
 ## Setting it all up
 The instructions to set up network encryption are pretty straight forward, with some variations depending on the state of the volume and cluster
