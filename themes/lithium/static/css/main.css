@@ -134,7 +134,8 @@ a {
 }
 
 .article-content a:hover,
-.article-content a:focus {
+.article-content a:focus,
+.article-content mark{
   background: #CBF8DF;
 }
 
