@@ -3,8 +3,9 @@
 <main class="content" role="main">
 
 <div class="archive">
+    <h2 class="archive-title">{{ .Title }}</h2>
     {{ range .Data.Pages.GroupByDate "2006"  }}
-    <h2 class="archive-title">{{ .Key }}</h2>
+    <h3 class="archive-title">{{ .Key }}</h3>
     {{ range .Pages }}
     <article class="archive-item">
       <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
