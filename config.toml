@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "kshlm's blog"
 theme = "angels-ladder"
 googleAnalytics = "UA-50804986-2"
-PygmentsCodeFences = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [permalinks]
   post = "/:slug"
