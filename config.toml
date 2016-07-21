@@ -1,8 +1,9 @@
 baseurl = "https://kshlm.in/"
 languageCode = "en-us"
 title = "kshlm's blog"
-theme = "lithium"
-googleAnalytics="UA-50804986-2"
+theme = "angels-ladder"
+googleAnalytics = "UA-50804986-2"
+PygmentsCodeFences = true
 
 [permalinks]
   post = "/:slug"
@@ -13,9 +14,13 @@ googleAnalytics="UA-50804986-2"
   url = "/about/"
 
 [params]
-  description = "My (very) rarely update blog about nothing in particular"
+  subtitle = "My (very) rarely update blog about nothing in particular"
   author = "Kaushal M"
   favicon = "favicon.png"
+  showsRSS = true
+  github = "https://github.com/kshlm"
+  twitter = "https://github.com/kshlm"
+  languageCode = "en"
 
   [params.logo]
     url = "logo.png"
