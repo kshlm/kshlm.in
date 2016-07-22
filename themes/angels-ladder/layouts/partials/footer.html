@@ -3,7 +3,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <footer role="contentinfo">
     <div style="text-align:center;">
-      {{ with .Site.Params.profile }}<img src="{{ . }}" width="64" height="64"><br>{{ end }}
       {{ .Site.Params.copyright }}
     </div>
   </footer>
@@ -11,7 +10,7 @@
 
 </div>
 
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
 </body>
 </html>

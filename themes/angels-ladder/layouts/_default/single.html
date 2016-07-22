@@ -16,5 +16,13 @@
       {{ .Content }}
     </article>
   </main>
+  <nav class="pagination-single">
+    {{ with .NextInSection }}
+      <span class="previous">&larr; <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a></span>
+    {{ end }}
+    {{ with .PrevInSection }}
+      <span class="next"><a href="{{ .Permalink }}" rel="next">{{ .Title }}</a> &rarr;</span>
+    {{ end }}
+  </nav>
 
 {{ partial "footer.html" . }}
