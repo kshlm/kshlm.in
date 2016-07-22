@@ -8,7 +8,7 @@
       <div class="meta">
         {{ .Date.Format "Jan 2, 2006" }} &nbsp;
         {{ range .Params.tags }}
-          #<a href="/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+          #<a href="/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
         {{ end }}
       </div>
     </div>
@@ -18,10 +18,10 @@
   </main>
   <nav class="pagination-single">
     {{ with .NextInSection }}
-      <span class="previous">&larr; <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a></span>
+      <span class="previous">&larr; <a href="{{ .Permalink }}/" rel="prev">{{ .Title }}</a></span>
     {{ end }}
     {{ with .PrevInSection }}
-      <span class="next"><a href="{{ .Permalink }}" rel="next">{{ .Title }}</a> &rarr;</span>
+      <span class="next"><a href="{{ .Permalink }}/" rel="next">{{ .Title }}</a> &rarr;</span>
     {{ end }}
   </nav>
 
