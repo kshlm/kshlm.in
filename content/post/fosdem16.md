@@ -56,4 +56,4 @@ After FOSDEM, I attended DevConf 2016 as well. I'll be writing up about that soo
 
 [^1]: Well I actually borrowed the overview image from the wonderful image that Rajesh and Poornima created for their GlusterFS workshop in LISA'15. The presentation can be found [here](https://gluster.readthedocs.org/en/latest/presentations/).
 [^2]: Can be found [here](https://gluster.readthedocs.org/en/latest/presentations/) again.
-[^3]: Unfortunately the video isn't up yet. You can view the presentation linked in the page. I'll be writing up a blog post about the topic soon as well.
+[^3]: <del>Unfortunately the video isn't up yet. You can view the presentation linked in the page.</del> _Update Jul 22, 2016: The video is finally up. Pretty poor quality though._ I'll be writing up a blog post about the topic soon as well.
