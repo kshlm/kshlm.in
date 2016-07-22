@@ -3,50 +3,50 @@
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/fira-sans-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/fs.eot'); /* IE9 Compat Modes */
   src: local('Fira Sans'), local('FiraSans-Regular'),
-       url('../fonts/fira-sans-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/fira-sans-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/fira-sans-v6-latin-regular.svg#FiraSans') format('svg'); /* Legacy iOS */
+       url('../fonts/fs.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fs.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fs.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fs.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fs.svg#FiraSans') format('svg'); /* Legacy iOS */
 }
 /* fira-sans-italic - latin */
 @font-face {
   font-family: 'Fira Sans';
   font-style: italic;
   font-weight: 400;
-  src: url('../fonts/fira-sans-v6-latin-italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/fsi.eot'); /* IE9 Compat Modes */
   src: local('Fira Sans Italic'), local('FiraSans-Italic'),
-       url('../fonts/fira-sans-v6-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/fira-sans-v6-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-italic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/fira-sans-v6-latin-italic.svg#FiraSans') format('svg'); /* Legacy iOS */
+       url('../fonts/fsi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fsi.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fsi.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fsi.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fsi.svg#FiraSans') format('svg'); /* Legacy iOS */
 }
 /* fira-sans-700 - latin */
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/fira-sans-v6-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/fsb.eot'); /* IE9 Compat Modes */
   src: local('Fira Sans Bold'), local('FiraSans-Bold'),
-       url('../fonts/fira-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/fira-sans-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/fira-sans-v6-latin-700.svg#FiraSans') format('svg'); /* Legacy iOS */
+       url('../fonts/fsb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fsb.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fsb.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fsb.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fsb.svg#FiraSans') format('svg'); /* Legacy iOS */
 }
 /* fira-sans-700italic - latin */
 @font-face {
   font-family: 'Fira Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('../fonts/fira-sans-v6-latin-700italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/fsbi.eot'); /* IE9 Compat Modes */
   src: local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'),
-       url('../fonts/fira-sans-v6-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/fira-sans-v6-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-700italic.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/fira-sans-v6-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/fira-sans-v6-latin-700italic.svg#FiraSans') format('svg'); /* Legacy iOS */
+       url('../fonts/fsbi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fsbi.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fsbi.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fsbi.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fsbi.svg#FiraSans') format('svg'); /* Legacy iOS */
 }
