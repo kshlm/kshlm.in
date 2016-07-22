@@ -18,15 +18,13 @@ pygmentsUseClasses = true
   subtitle = "My (very) rarely update blog about nothing in particular"
   author = "Kaushal M"
   favicon = "favicon.png"
-  showsRSS = true
-  github = "https://github.com/kshlm"
-  twitter = "https://github.com/kshlm"
   languageCode = "en"
 
-  [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
+  github = "https://github.com/kshlm/"
+  twitter = "https://twitter.com/kshlm/"
+  facebook = "https://facebook.com/kshlmster/"
+  gplus = "https://plus.google.com/+KaushalMadappa"
+  linkedin = "https://in.linkedin.com/in/kshlmster"
 
 [sitemap]
   changefreq = "weekly"

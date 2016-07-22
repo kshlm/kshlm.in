@@ -45,10 +45,14 @@
       <div id="social" class="col span_6">
         <ul>
           {{ range .Site.Menus.main }}<li><a href={{ .URL }}>{{ .Name }}</a></li>{{ end }}
-          {{ with .Site.Params.twitter }}<li><a href="{{ . }}" target="_blank">Twitter</a></li>{{ end }}
-          {{ with .Site.Params.facebook }}<li><a href="{{ . }}" target="_blank">Facebook</a></li>{{ end }}
-          {{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank">GitHub</a></li>{{ end }}
-          {{ if and .Site.Params.showsRSS (or .IsNode .IsHome) }}<li><a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">RSS</a></li>{{ end }}
+          <li>
+          {{ if or .IsNode .IsHome }}<a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank"><i class="icon-rss"></i>{{ end }}
+          {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><i class="icon-github"></i></a>{{ end }}
+          {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank"><i class="icon-linkedin"></i></a>{{ end }}
+          {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank"><i class="icon-facebook"></i></a>{{ end }}
+          {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank"><i class="icon-twitter"></i></a>{{ end }}
+          {{ with .Site.Params.gplus }}<a href="{{ . }}" target="_blank"><i class="icon-gplus"></i></a>{{ end }}
+          </li>
         </ul>
       </div>
     </div>
