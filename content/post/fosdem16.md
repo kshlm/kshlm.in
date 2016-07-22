@@ -17,11 +17,11 @@ I was part of the Gluster team at FOSDEM, and hosted a Gluster stand for 2 days 
 
 This was the first time a Gluster stand was put up in a conference as large as FOSDEM, and we didn't come prepared fully. We had goodies (stickers, pens, lanyards) to give away. But as we didn't have any brochures, posters or other sorts of information displays, we didn't get much traction initially. We did have existing users of Gluster stop by and talk. Much of the responses I got were happy.
 
-In the afternoon, I created a single page slide with an overview of GlusterFS[^n], put it full-screen on my laptop and turned it towards the visitors. But I'd forgotten to disable the screen auto-off power saving setting, and so I sat for an hour wondering why no one was looking at the screen. After I'd realized this and fixed it, the stand got more interest. New visitors drawn in by the overview graphic, who hadn't used GlusterFS before, promised to give GlusterFS as spin.
+In the afternoon, I created a single page slide with an overview of GlusterFS [^1], put it full-screen on my laptop and turned it towards the visitors. But I'd forgotten to disable the screen auto-off power saving setting, and so I sat for an hour wondering why no one was looking at the screen. After I'd realized this and fixed it, the stand got more interest. New visitors drawn in by the overview graphic, who hadn't used GlusterFS before, promised to give GlusterFS as spin.
 
 At nearly the same time, Neils was giving a talk on the [Gluster roadmap](https://fosdem.org/2016/schedule/event/gluster_roadmap/). We had more interest after this, and got a lot of queries on our new features, in particular arbiter and sharding. We had somewhat of a steady stream of visitors to the stand, till the end of the day. The first day closed at around 6.30PM.
 
-The second day started well. We had Neils available at the stand for a longer time, as I spent some time at the Go devroom (more on this later). Neils' presentation[^n] from the previous day was put on loop on Humble's laptop, and we were set. Kaleb([@kalebkuechle](https://twitter.com/kalebkuechle)) dropped in as well. The crowd was less on the second day, and the day wound down early at around 5PM. The teams manning the [oVirt](https://www.ovirt.org) and [Foreman](http://theforeman.org) stand located beside the Gluster stand, we very helpful in getting the location cleaned up.
+The second day started well. We had Neils available at the stand for a longer time, as I spent some time at the Go devroom (more on this later). Neils' presentation [^2] from the previous day was put on loop on Humble's laptop, and we were set. Kaleb([@kalebkuechle](https://twitter.com/kalebkuechle)) dropped in as well. The crowd was less on the second day, and the day wound down early at around 5PM. The teams manning the [oVirt](https://www.ovirt.org) and [Foreman](http://theforeman.org) stand located beside the Gluster stand, we very helpful in getting the location cleaned up.
 
 ### My notes, observations
 The list below isn't ordered in any particular way, so please excuse me.
@@ -47,13 +47,13 @@ The list below isn't ordered in any particular way, so please excuse me.
 - (This one's for me) I need to initiate more conversations, and not just nod at people when they look at me.
 
 ## Me @ FOSDEM'16
-Part of the reason I got to go to FOSDEM, was that I was invited to speak at the Go devroom. My talk was titled ['Go & Plugins'](https://fosdem.org/2016/schedule/event/plugins/) [^n]. The talk was about what my experiences and findings from my investigations into implementing plugins for GlusterD-2.0 which is written in Go. When I'd submitted the application, I had hoped to have some sort of a implementation of plugins in GD2 to show as an example and walk-through in the talk. But this didn't happen, so my talk was pretty short and devoid of code samples which people had (probably) expected. But still, I'd like to think that the talk was a success, the room was nearly full and I got several genuine questions and suggestions at the end.
+Part of the reason I got to go to FOSDEM, was that I was invited to speak at the Go devroom. My talk was titled ['Go & Plugins'](https://fosdem.org/2016/schedule/event/plugins/) [^3]. The talk was about what my experiences and findings from my investigations into implementing plugins for GlusterD-2.0 which is written in Go. When I'd submitted the application, I had hoped to have some sort of a implementation of plugins in GD2 to show as an example and walk-through in the talk. But this didn't happen, so my talk was pretty short and devoid of code samples which people had (probably) expected. But still, I'd like to think that the talk was a success, the room was nearly full and I got several genuine questions and suggestions at the end.
 
 
 After FOSDEM, I attended DevConf 2016 as well. I'll be writing up about that soon (later?) in another post.
 
 
 
-[^n]: Well I actually borrowed the overview image from the wonderful image that Rajesh and Poornima created for their GlusterFS workshop in LISA'15. The presentation can be found [here](https://gluster.readthedocs.org/en/latest/presentations/)
-[^n]: Can be found [here](https://gluster.readthedocs.org/en/latest/presentations/) again.
-[^n]: Unfortunately the video isn't up yet. You can view the presentation linked in the page. I'll be writing up a blog post about the topic soon as well.
+[^1]: Well I actually borrowed the overview image from the wonderful image that Rajesh and Poornima created for their GlusterFS workshop in LISA'15. The presentation can be found [here](https://gluster.readthedocs.org/en/latest/presentations/).
+[^2]: Can be found [here](https://gluster.readthedocs.org/en/latest/presentations/) again.
+[^3]: Unfortunately the video isn't up yet. You can view the presentation linked in the page. I'll be writing up a blog post about the topic soon as well.
