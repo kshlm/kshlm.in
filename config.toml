@@ -6,6 +6,7 @@ googleAnalytics = "UA-50804986-2"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
+enableRobotsTXT = true
 
 [permalinks]
   post = "/:slug"
