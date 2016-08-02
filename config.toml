@@ -9,8 +9,8 @@ footnoteReturnLinkContents = "↩"
 enableRobotsTXT = true
 
 [[menu.main]]
-  name = "About Me"
-  url = "/about/"
+  name = "About"
+  url = "/page/about/"
 
 [params]
   subtitle = "My (very) rarely updated blog about nothing in particular"
