@@ -6,6 +6,7 @@ draft = false
 slug = "this-video-was-created-entirely-using-still"
 tags = ["video"]
 title = "This video was created entirely using still images."
+aliases = ["this-video-was-created-entirely-using-still"]
 
 +++
 

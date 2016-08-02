@@ -6,6 +6,7 @@ draft = false
 slug = "portal-credits-song-still-alive"
 tags = ["video", "music", "game", "portal"]
 title = "Portal - Credits Song 'Still Alive'"
+aliases = ["portal-credits-song-still-alive"]
 
 +++
 

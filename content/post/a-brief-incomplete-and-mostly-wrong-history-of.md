@@ -5,6 +5,7 @@ draft = false
 slug = "a-brief-incomplete-and-mostly-wrong-history-of"
 title = "A Brief, Incomplete, and Mostly Wrong History of Programming Languages"
 
+aliases = ["a-brief-incomplete-and-mostly-wrong-history-of"]
 +++
 
 **[A Brief, Incomplete, and Mostly Wrong History of Programming

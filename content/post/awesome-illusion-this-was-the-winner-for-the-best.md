@@ -6,6 +6,7 @@ draft = false
 slug = "awesome-illusion-this-was-the-winner-for-the-best"
 tags = ["video"]
 title = "Awesome Illusion!"
+aliases = ["awesome-illusion-this-was-the-winner-for-the-best"]
 
 +++
 

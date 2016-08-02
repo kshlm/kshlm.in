@@ -6,6 +6,7 @@ draft = false
 slug = "blindtype-demo2"
 tags = ["video", "app"]
 title = "BlindType - Demo2"
+aliases = ["blindtype-demo2"]
 
 +++
 

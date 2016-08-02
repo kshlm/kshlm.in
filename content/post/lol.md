@@ -6,6 +6,7 @@ draft = false
 slug = "lol"
 tags = ["funny", "comic", "webcomic", "cnh"]
 title = "Lol!"
+aliases = ["lol"]
 
 +++
 

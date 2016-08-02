@@ -6,6 +6,7 @@ draft = false
 slug = "exams-done"
 tags = ["internship", "nokia"]
 title = "Exams done!!!"
+aliases = ["exams-done"]
 
 +++
 

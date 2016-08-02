@@ -6,6 +6,7 @@ draft = false
 slug = "new-currency-symbol-for-indian-rupee"
 tags = ["link"]
 title = "New Currency Symbol for Indian Rupee"
+aliases = ["new-currency-symbol-for-indian-rupee"]
 
 +++
 

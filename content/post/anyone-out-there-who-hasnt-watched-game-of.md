@@ -6,6 +6,7 @@ draft = false
 slug = "anyone-out-there-who-hasnt-watched-game-of"
 tags = ["video"]
 title = "Anyone out there who hasn't watched Game of Thrones, go watch it."
+aliases = ["anyone-out-there-who-hasnt-watched-game-of"]
 
 +++
 

@@ -6,6 +6,7 @@ draft = false
 slug = "10-unusual-and-amazing-snakes"
 tags = ["link"]
 title = "10 Unusual and Amazing Snakes"
+aliases = ["10-unusual-and-amazing-snakes"]
 
 +++
 

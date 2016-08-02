@@ -8,10 +8,6 @@ pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
 enableRobotsTXT = true
 
-[permalinks]
-  post = "/:slug"
-  page = "/:slug"
-
 [[menu.main]]
   name = "About Me"
   url = "/about/"

@@ -6,6 +6,7 @@ draft = false
 slug = "one-month-done"
 tags = ["internship", "nokia", "freoffice", "maemo", "meego"]
 title = "One month done!"
+aliases = ["one-month-done"]
 
 +++
 

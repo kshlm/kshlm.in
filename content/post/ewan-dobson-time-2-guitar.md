@@ -6,6 +6,7 @@ draft = false
 slug = "ewan-dobson-time-2-guitar"
 tags = ["video", "music"]
 title = "Ewan Dobson - Time 2 - Guitar"
+aliases = ["ewan-dobson-time-2-guitar"]
 
 +++
 

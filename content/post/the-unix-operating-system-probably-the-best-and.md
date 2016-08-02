@@ -6,6 +6,7 @@ draft = false
 slug = "the-unix-operating-system-probably-the-best-and"
 tags = ["video", "unix", "educational"]
 title = "The UNIX operating system"
+aliases = ["the-unix-operating-system-probably-the-best-and"]
 
 +++
 

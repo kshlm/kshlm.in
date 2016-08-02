@@ -6,6 +6,7 @@ draft = false
 slug = "rubiks-cube-now-solvable-in-20-moves"
 tags = ["link"]
 title = "Rubik's Cube Now Solvable in 20 Moves"
+aliases = ["rubiks-cube-now-solvable-in-20-moves"]
 
 +++
 

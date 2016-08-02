@@ -6,6 +6,7 @@ draft = false
 slug = "raptor-fences"
 tags = ["comic", "webcomic", "xkcd"]
 title = "Raptor Fences"
+aliases = ["raptor-fences"]
 
 +++
 

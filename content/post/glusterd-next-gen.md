@@ -6,6 +6,7 @@ draft = false
 slug = "glusterd-next-gen"
 tags = ["gluster", "glusterfs", "glusterd", "glustersummit", "glustersummit2015"]
 title = "GlusterD Next Gen"
+aliases = ["glusterd-next-gen"]
 
 +++
 

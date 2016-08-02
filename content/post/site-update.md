@@ -3,6 +3,7 @@ date = "2016-07-22T18:45:03+05:30"
 title = "An update on this site"
 tags=["site"]
 categories=["site"]
+alias=["an-update-on-this-site"]
 +++
 
 3 posts and nearly 2 years since I moved kshlm.in to [Ghost][1], I moving off it.

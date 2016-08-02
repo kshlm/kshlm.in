@@ -6,6 +6,7 @@ draft = false
 slug = "d-via-simplemoments"
 tags = ["comic", "webcomic", "simplemoments"]
 title = ":D"
+aliases = ["d-via-simplemoments"]
 
 +++
 

@@ -6,6 +6,7 @@ draft = false
 slug = "lol-this-is-why-gran-turismo-5-is-the-best"
 tags = ["video", "game", "funny"]
 title = "Gran Turismo 5"
+aliases = ["lol-this-is-why-gran-turismo-5-is-the-best"]
 
 +++
 

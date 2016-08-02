@@ -4,6 +4,7 @@ title = "GlusterFS 3.7.14"
 categories = ["gluster"]
 tags = ["gluster", "glusterfs", "release"]
 slug = "glusterfs-3-7-14"
+aliases = ["glusterfs-3-7-14"]
 +++
 
 # GlusterFS 3.7.14 released

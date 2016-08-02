@@ -6,6 +6,7 @@ draft = false
 slug = "awesome-i-want-one"
 tags = ["video"]
 title = "Awesome!! I want one."
+aliases = ["awesome-i-want-one"]
 
 +++
 

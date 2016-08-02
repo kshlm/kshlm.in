@@ -6,6 +6,7 @@ draft = false
 slug = "time-to-renew-this-blog"
 tags = ["thoughts"]
 title = "Time to renew this blog"
+aliases = ["time-to-renew-this-blog"]
 
 +++
 

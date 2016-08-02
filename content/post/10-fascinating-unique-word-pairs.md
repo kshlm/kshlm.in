@@ -6,6 +6,7 @@ draft = false
 slug = "10-fascinating-unique-word-pairs"
 tags = ["link"]
 title = "10 Fascinating Unique Word Pairs"
+aliases = ["10-fascinating-unique-word-pairs"]
 
 +++
 

@@ -7,6 +7,7 @@ image = "/images/2016/02/flyerfosdem.png"
 slug = "fosdem16"
 tags = ["gluster", "fosdem", "fosdem'16"]
 title = "Gluster (and me) @ FOSDEM'16"
+aliases = ["fosdem16"]
 
 +++
 

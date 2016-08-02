@@ -6,6 +6,7 @@ draft = false
 slug = "the-best-poker-face-song-ever-even-better-than"
 tags = ["video", "music", "funny", "south park"]
 title = "The best Poker Face song ever. Even better than the original.\nSP rules!!!"
+aliases = ["the-best-poker-face-song-ever-even-better-than"]
 
 +++
 

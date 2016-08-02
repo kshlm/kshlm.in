@@ -6,6 +6,7 @@ draft = false
 slug = "gandalf-goes-to-the-world-cup"
 tags = ["video", "funny"]
 title = "Gandalf Goes to the World Cup"
+aliases = ["gandalf-goes-to-the-world-cup"]
 
 +++
 

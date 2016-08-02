@@ -6,6 +6,7 @@ draft = false
 slug = "network-encryption-in-glusterfs"
 tags = ["gluster", "glusterfs", "ssl", "encryption", "howto", "setup", "tls"]
 title = "Setting up network encryption in GlusterFS"
+aliases = ["network-encryption-in-glusterfs"]
 
 +++
 

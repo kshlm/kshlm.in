@@ -6,6 +6,7 @@ draft = false
 slug = "21-tech-companies-that-changed-the-world-before-they"
 tags = ["link"]
 title = "21 Tech Companies that Changed The World... Before They Died"
+aliases = ["21-tech-companies-that-changed-the-world-before-they"]
 
 +++
 

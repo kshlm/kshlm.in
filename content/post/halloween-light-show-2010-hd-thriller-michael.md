@@ -6,6 +6,7 @@ draft = false
 slug = "halloween-light-show-2010-hd-thriller-michael"
 tags = ["video", "music", "lights"]
 title = "Halloween Light Show 2010 HD - Thriller ( Michael Jackson )"
+aliases = ["halloween-light-show-2010-hd-thriller-michael"]
 
 +++
 

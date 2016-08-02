@@ -6,6 +6,7 @@ draft = false
 slug = "spinal-tap-amps"
 tags = ["comic", "webcomic", "xkcd"]
 title = "Spinal Tap Amps"
+aliases = ["spinal-tap-amps"]
 
 +++
 

@@ -4,6 +4,7 @@ date = 2014-10-06T11:54:27Z
 draft = false
 slug = "about"
 title = "About Me"
+aliases = "about"
 
 +++
 

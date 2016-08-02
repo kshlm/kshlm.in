@@ -6,6 +6,7 @@ draft = false
 slug = "got-the-n900-wooooooo-boooooooo"
 tags = ["internship", "nokia"]
 title = "Got the N900........wooooooo........boooooooo"
+aliases = ["got-the-n900-wooooooo-boooooooo"]
 
 +++
 

@@ -4,6 +4,7 @@ date = 2010-12-07T19:14:40Z
 draft = false
 slug = "raise-your-pc-iq-6-key-technologies-explained"
 title = "Raise Your PC IQ! 6 Key Technologies Explained"
+aliases = ["raise-your-pc-iq-6-key-technologies-explained"]
 
 +++
 

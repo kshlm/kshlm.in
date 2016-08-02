@@ -6,6 +6,7 @@ draft = false
 slug = "sahara-wonderland"
 tags = ["video"]
 title = "Sahara Wonderland"
+aliases = ["sahara-wonderland"]
 
 +++
 

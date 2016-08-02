@@ -6,6 +6,7 @@ draft = false
 slug = "my-blackberry-is-not-working-the-one-ronnie-preview"
 tags = ["video", "funny"]
 title = "My Blackberry Is Not Working! - The One Ronnie, Preview - BBC One"
+aliases = ["my-blackberry-is-not-working-the-one-ronnie-preview"]
 
 +++
 

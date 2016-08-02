@@ -2,6 +2,8 @@
 date = "2016-07-22T17:03:02+05:30"
 title = "About this site"
 tags = ["tools", "services"]
+slug = "about-this-site"
+aliases = ["about-this-site"]
 +++
 
 This page contains the list of the awesome free tools and (mostly) free services being used to serve this site.

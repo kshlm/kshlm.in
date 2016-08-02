@@ -6,6 +6,7 @@ draft = false
 slug = "arch-linux-the-best-linux-ever"
 tags = ["linux", "distros", "arch", "arch linux"]
 title = "Arch Linux, the best Linux ever"
+aliases = ["arch-linux-the-best-linux-ever"]
 
 +++
 

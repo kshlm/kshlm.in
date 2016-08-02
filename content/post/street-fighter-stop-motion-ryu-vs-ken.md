@@ -6,6 +6,7 @@ draft = false
 slug = "street-fighter-stop-motion-ryu-vs-ken"
 tags = ["video"]
 title = "Street Fighter Stop Motion - Ryu VS Ken Long Yu Ken"
+aliases = ["street-fighter-stop-motion-ryu-vs-ken"]
 
 +++
 

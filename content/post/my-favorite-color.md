@@ -6,6 +6,7 @@ draft = false
 slug = "my-favorite-color"
 tags = ["video", "music"]
 title = "My Favorite Color"
+aliases = ["my-favorite-color"]
 
 +++
 

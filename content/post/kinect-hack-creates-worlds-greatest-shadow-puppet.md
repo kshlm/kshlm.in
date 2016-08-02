@@ -6,6 +6,7 @@ draft = false
 slug = "kinect-hack-creates-worlds-greatest-shadow-puppet"
 tags = ["video", "game"]
 title = "Kinect hack creates world's greatest shadow puppet"
+aliases = ["kinect-hack-creates-worlds-greatest-shadow-puppet"]
 
 +++
 

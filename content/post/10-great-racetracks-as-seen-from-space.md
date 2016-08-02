@@ -6,6 +6,7 @@ draft = false
 slug = "10-great-racetracks-as-seen-from-space"
 tags = ["link"]
 title = "10 Great Racetracks as Seen From Space"
+aliases = ["10-great-racetracks-as-seen-from-space"]
 
 +++
 

@@ -6,6 +6,7 @@ draft = false
 slug = "gogfapi"
 tags = ["programming", "gluster", "code", "golang"]
 title = "Gogfapi"
+aliases = ["gogfapi"]
 
 +++
 

@@ -6,6 +6,7 @@ draft = false
 slug = "get-set-for-the-3g-life"
 tags = ["video", "ad"]
 title = "Get Set for the 3G Life!"
+aliases = ["get-set-for-the-3g-life"]
 
 +++
 

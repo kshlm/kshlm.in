@@ -6,6 +6,7 @@ draft = false
 slug = "inception-trailer-a-capella-re-dub"
 tags = ["video", "music", "funny", "movie"]
 title = "Inception Trailer A Capella Re-Dub"
+aliases = ["inception-trailer-a-capella-re-dub"]
 
 +++
 

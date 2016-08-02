@@ -6,6 +6,7 @@ draft = false
 slug = "lightning-strikes-three-of-the-tallest-buildings"
 tags = ["video"]
 title = "Lightning strikes three of the tallest buildings in Chicago at the same time!"
+aliases = ["lightning-strikes-three-of-the-tallest-buildings"]
 
 +++
 

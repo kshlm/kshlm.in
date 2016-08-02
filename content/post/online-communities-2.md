@@ -6,6 +6,7 @@ draft = false
 slug = "online-communities-2"
 tags = ["comic", "webcomic", "xkcd", "infographic"]
 title = "Online Communities 2"
+aliases = ["online-communities-2"]
 
 +++
 

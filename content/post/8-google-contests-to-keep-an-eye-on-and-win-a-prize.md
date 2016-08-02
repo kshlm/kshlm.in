@@ -6,6 +6,7 @@ draft = false
 slug = "8-google-contests-to-keep-an-eye-on-and-win-a-prize"
 tags = ["link"]
 title = "8 Google Contests to Keep an Eye On and Win a Prize"
+aliases = ["8-google-contests-to-keep-an-eye-on-and-win-a-prize"]
 
 +++
 

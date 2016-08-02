@@ -6,6 +6,7 @@ draft = false
 slug = "off-to-bangalore"
 tags = ["internship", "nokia"]
 title = "Off to Bangalore"
+aliases = ["off-to-bangalore"]
 
 +++
 
