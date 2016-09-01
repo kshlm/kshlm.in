@@ -9,7 +9,7 @@ aliases = ["glusterfs-3-7-15"]
 
 # GlusterFS 3.7.15 released
 
-GlusterFS 3.7.15 has been released. This is a regular scheduled release for GlusterFS-3.7 and includes 26 bug fixes since 3.7.14.
+GlusterFS 3.7.15 has been released. This is a regular scheduled release for GlusterFS-3.7 and includes 38 bug fixes since 3.7.14.
 The release-notes can be read [here][1].
 
 ## Downloads
