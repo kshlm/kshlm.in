@@ -1,8 +1,8 @@
 +++
 date = "2016-10-27T14:08:13+05:30"
 title = "Volgen-2.0"
-categories = ["dev", "glusterfs"]
-tags = ["development", "glusterfs", "glusterd-2.0", "gd2", "volgen", "glusterfs-4.0"]
+categories = ["dev", "glusterfs", "gluster"]
+tags = ["development", "glusterfs", "gluster", "glusterd-2.0", "gd2", "volgen", "glusterfs-4.0"]
 +++
 
 # Designing and prototyping volgen for GD2
