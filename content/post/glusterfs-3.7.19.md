@@ -12,7 +12,10 @@ GlusterFS 3.7.19 is a regular bug fix release for GlusterFS-3.7. The release-not
 
 The release tarball and [community provided packages][2] can obtained from [download.gluster.org][3]. The CentOS [Storage SIG][4] packages have been built and should be available soon from the centos-gluster37 repository.
 
+A reminder to everyone, GlusterFS-3.7 is [scheduled][5] to be EOLed with the release of GlusterFS-3.10, which should happen sometime in February 2017.
+
 [1]: https://github.com/gluster/glusterfs/blob/release-3.7/doc/release-notes/3.7.18.md
 [2]: https://gluster.readthedocs.io/en/latest/Install-Guide/Community_Packages/
 [3]: https://download.gluster.org/pub/gluster/glusterfs/3.7/3.7.18/
 [4]: https://wiki.centos.org/SpecialInterestGroup/Storage
+[5]: https://www.gluster.org/community/release-schedule/
