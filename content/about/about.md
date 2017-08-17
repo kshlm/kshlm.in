@@ -2,9 +2,8 @@
 author = "Kaushal"
 date = 2014-10-06T11:54:27Z
 draft = false
-slug = "about"
+slug = "me"
 title = "About Me"
-aliases = "about"
 
 +++
 

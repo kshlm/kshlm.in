@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "About"
-  url = "/pages/"
+  url = "/about/"
 
 [params]
   subtitle = "My (very) rarely updated blog about nothing in particular"
