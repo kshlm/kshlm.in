@@ -45,7 +45,8 @@ Git-LFS has been installed using the RPM packages provided by [packagecloud](htt
 
 Hugo has been installed using the [spf13/Hugo](https://copr.fedorainfracloud.org/coprs/spf13/Hugo/) copr repository.
 
-The site uses the [angels-ladder](https://github.com/tanksuzuki/angels-ladder/)(by [tanksuzuki](http://tanksuzuki.com/)) modified to use the wonderful and free [Fira](https://github.com/mozilla/Fira/) fonts.
+The site uses a modified version of the [minos](https://github.com/carsonip/hugo-theme-minos) theme.
+
 
 ## Services
 

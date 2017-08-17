@@ -406,11 +406,11 @@ a.article-title:hover,
   overflow: hidden;
 }
 #main-nav {
-  float: left;
-  margin-left: -15px;
+  float: right;
+  margin-right: 15px;
 }
 .main-nav-link {
-  float: left;
+  float: right;
   color: #000;
   text-decoration: none;
   -webkit-transition: opacity 0.2s;

@@ -1,7 +1,8 @@
 baseurl = "https://kshlm.in/"
 languageCode = "en-us"
 title = "kshlm's blog"
-theme = "angels-ladder"
+author = "Kaushal M"
+theme = "minos"
 googleAnalytics = "UA-50804986-2"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -10,7 +11,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "About"
-  url = "/page/about/"
+  url = "/pages/"
 
 [params]
   subtitle = "My (very) rarely updated blog about nothing in particular"
@@ -32,4 +33,3 @@ enableRobotsTXT = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
