@@ -5,9 +5,6 @@
     {{ partial "header.html" . }}
     <section id="main" class="outer">
         {{ partial "article.html" . }}
-        {{ if and (not .Params.nocomment) .Site.Params.disqusShortname }}
-            {{ template "_internal/disqus.html" . }}
-        {{ end }}
     </section>
     {{ partial "footer.html" . }}
 </div>
