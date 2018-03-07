@@ -1,8 +1,8 @@
 +++
-date = "2016-07-22T17:03:02+05:30"
 title = "About this site"
 tags = ["tools", "services"]
 slug = "this-site"
+date = "2018-03-07T22:20:02+05:30"
 +++
 
 This page contains the list of the awesome free tools and (mostly) free services being used to serve this site.
@@ -10,27 +10,19 @@ Some of these might be a little too much for a small site like this, but I just 
 
 ## Tools
 
-### acmetool
-
-[acmetool](https://hlandau.github.io/acme/) is used to automatically obtain [Let's Encrypt]({{<relref "#let-s-encrypt">}}) TLS certificates.
-It has been configured to automatically renew certificates (using a [systemd-timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html)).
-A [Cloudflare dns hook](https://github.com/yinguanhao/acme-dns-hook-cloudflare) is used to perform DNS verifications for the acme protocol.
-
-acmetool has been installed using the [hlandau/acmetool](https://copr.fedorainfracloud.org/coprs/hlandau/acmetool/) copr repository.
-
 ### Caddy
 
 [Caddy](https://caddyserver.com/) is a really easy to use webserver used to serve this site.
-It serves HTTP2 by default and has [automatic HTTPS](https://caddyserver.com/docs/automatic-https) (which isn't used on this site by the way).
+It serves HTTP2 by default and has [automatic HTTPS](https://caddyserver.com/docs/automatic-https).
 
 Caddy has been configured to serve the site over HTTP2 using [TLS certificates]({{<relref "#acmetool">}}) from [Let's Encrypt]({{<relref "#let-s-encrypt">}}).
-The git (with a Github hook) and hugo Caddy plugins, are used to automatically deploy updates to the site.
+The git (with a Github hook) Caddy plugin, are used to automatically deploy updates to the site.
 
-Caddy has been installed using the [xena/caddy](https://copr.fedorainfracloud.org/coprs/xena/caddy/) copr repository.
+Caddy has been installed using the [getcaddy.com](https://getcaddy.com) script, with the http.git, http.minify and a few other plugins enabled.
 
 ### CentOS
 
-The site is served off a [CentOS](https://www.centos.org/) 7.2 VM hosted on [Scaleway]({{<relref "#scaleway">}}).
+The site is served off a [CentOS](https://www.centos.org/) 7.4 VM hosted on [Scaleway]({{<relref "#scaleway">}}).
 
 ### Git and Git-LFS
 
@@ -42,9 +34,9 @@ Git-LFS has been installed using the RPM packages provided by [packagecloud](htt
 
 [Hugo](https://gohugo.io/) is the really awesome static site generator used to generate this site from markdown files stored in Git.
 
-Hugo has been installed using the [spf13/Hugo](https://copr.fedorainfracloud.org/coprs/spf13/Hugo/) copr repository.
+Hugo has been installed using the [daftaupe/hugo](https://copr.fedorainfracloud.org/coprs/daftaupe/hugo/) copr repository.
 
-The site uses a modified version of the [minos](https://github.com/carsonip/hugo-theme-minos) theme.
+The site uses a modified version of the [Kiss](https://github.com/ribice/kiss) theme.
 
 
 ## Services
