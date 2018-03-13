@@ -3,7 +3,6 @@ title = "GlusterD2"
 date = 2018-02-26T17:29:31+05:30
 categories = ["gluster"]
 tags = ["gluster", "glusterd", "glusterd2", "gd2", "gluster-4.0"]
-draft = true
 +++
 
 The Gluster-4.0 release is here, one of the most important releases for the Gluster community in quite some time.
@@ -187,3 +186,5 @@ Without their work, GD2 wouldn't have reached the state it is at right now.
 
 GD2 is a work in progress, and will continue to develop over the Gluster-4.x series. Our aim is to make GD2 the perfect management tool for Gluster.
 Any help is always appreciated. Also, feedback is welcome. Please try out GD2 and let us know what your opinions.
+
+PS: This post was also published on the Gluster community [blog](https://www.gluster.org/more-about-gluster-d2/).
