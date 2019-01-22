@@ -9,7 +9,7 @@ copyright = "&copy Kaushal M 2018"
 paginate = 10
 
 [params]
-  favicon = "favicon.png"
+  favicon = "/favicon.png"
   googleSiteVerification = "MX_oHq5y9ZCobLeoEotVpsEUJxBqikLnFHggB2PWvic"
 
 [params.info]
