@@ -2,7 +2,7 @@
 title = "About this site"
 tags = ["tools", "services"]
 slug = "this-site"
-date = "2018-03-07T22:20:02+05:30"
+date = "2019-01-22T23:30:02+05:30"
 +++
 
 This page contains the list of the awesome free tools and (mostly) free services being used to serve this site.
@@ -36,7 +36,7 @@ Git-LFS has been installed using the RPM packages provided by [packagecloud](htt
 
 Hugo has been installed using the [daftaupe/hugo](https://copr.fedorainfracloud.org/coprs/daftaupe/hugo/) copr repository.
 
-The site uses a modified version of the [Kiss](https://github.com/ribice/kiss) theme.
+The site uses a modified version of the [Indigo](https://github.com/AngeloStavrow/indigo) theme.
 
 
 ## Services

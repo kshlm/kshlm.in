@@ -2,7 +2,7 @@ baseurl = "https://kshlm.in/"
 languageCode = "en"
 title = "kshlm's blog"
 author = "Kaushal M"
-theme = "kiss"
+theme = "indigo"
 googleAnalytics = "UA-50804986-2"
 enableRobotsTXT = true
 copyright = "&copy Kaushal M 2018"
@@ -11,6 +11,26 @@ paginate = 10
 [params]
   favicon = "/favicon.png"
   googleSiteVerification = "MX_oHq5y9ZCobLeoEotVpsEUJxBqikLnFHggB2PWvic"
+  author = "Kaushal M"
+  description = "My (very) rarely updated blog about nothing in particular"
+  showbio = false
+  permalinktext = "🔗"
+
+  emailaddress = "contact@kshlm.in"
+  facebookuser = "kshlmster"
+  twitteruser = "kshlmster"
+  githubuser = "kshlm"
+  gitlabuser = "kshlm"
+  keybaseuser = "kshlm"
+  linkedinuser = "kshlmster"
+  reddituser = "kshlm"
+
+[params.indiweb]
+  emailaddress = "contact@kshlm.in"
+  twitteruser = "kshlmster"
+  githubuser = "kshlm"
+  country = "India"
+  city = "Mysuru"
 
 [params.info]
   enableSocial = true
@@ -36,3 +56,4 @@ paginate = 10
 
 [taxonomies]
   tag = "tags"
+  category = "categories"
