@@ -96,7 +96,15 @@ body {
     background-color: #f8f8f8;
 }
 
-h1, h2, h3 {
+h1 {
+    font-family: 'Charter', Fallback, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2em;
+    padding-top: 0.15em;
+}
+
+h2, h3 {
     font-family: 'Fira Sans', Fallback, sans-serif;
     font-weight: bold;
     margin-top: 2em;
