@@ -1,13 +1,13 @@
 +++
-title = "GlusterD2"
-date = 2018-02-26T17:29:31+05:30
 categories = ["gluster"]
+date = 2018-02-26T11:59:31Z
 tags = ["gluster", "glusterd", "glusterd2", "gd2", "gluster-4.0"]
-+++
+title = "GlusterD2"
 
-The Gluster-4.0 release is here, one of the most important releases for the Gluster community in quite some time.
-The bump in the major version is being brought about by a few new changes, namely a change in the on-wire protocol,
- and the new management framework, GlusterD2 (GD2 for short).
++++
+> Note: As of early 2019, development on GD2 has stopped and is no longer maintained. The GD2 developers and maintainers, including me, have moved on to other projects.
+
+The Gluster-4.0 release is here, one of the most important releases for the Gluster community in quite some time. The bump in the major version is being brought about by a few new changes, namely a change in the on-wire protocol, and the new management framework, GlusterD2 (GD2 for short).
 
 GD2 has been under development for a very long time. We are excited to finally get it in the hands of users.
 This post gives a sneak peek of GD2, what it brings in Gluster-4.0 and its future.
@@ -91,25 +91,24 @@ GD2 in Gluster-4.0 has several limitations and known issues. These are described
 In Gluster-4.0, GD2 implements most of the basic cluster and volume management operations, and a few others.
 The available operations include,
 
-- Cluster management
-    - Peer probe
-    - Peer detach
-    - Peer status
-- Volume management
-    - Create/Start/Stop/Delete volumes
-    - Expand
-    - Set/Get options
-- Bitrot
-    - Enable/disable
-    - Configure
-    - Status
-- Geo-replication
-    - Create/Start/Pause/Resume/Stop/Delete sessions
-    - Configure
-    - Status
+* Cluster management
+  * Peer probe
+  * Peer detach
+  * Peer status
+* Volume management
+  * Create/Start/Stop/Delete volumes
+  * Expand
+  * Set/Get options
+* Bitrot
+  * Enable/disable
+  * Configure
+  * Status
+* Geo-replication
+  * Create/Start/Pause/Resume/Stop/Delete sessions
+  * Configure
+  * Status
 
 Many of the remaining features are being implemented, and will become available in Gluster-4.1.
-
 
 ### Backwards compatibility
 
