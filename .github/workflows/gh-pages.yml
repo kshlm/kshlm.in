@@ -25,6 +25,7 @@ jobs:
       run: |
         hugo --minify
         echo "kshlm.in" > public/CNAME
+        cp -a .forestry/admin public
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
