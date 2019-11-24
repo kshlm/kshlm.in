@@ -63,7 +63,7 @@ Github has been configured to notify Caddy via a webhook on updates to the repos
 [Let's Encrypt](https://letsencrypt.org/) is used to obtain the TLS certificates for kshlm.in and blog.kshlm.in.
 Let's Encrypt provides free and automated TLS certificates using the [ACME protocol](https://github.com/letsencrypt/acme-spec).
 
-When visiting kshlm.in, content might be served from Cloudflare's CDN servers with Cloudflare SNI certificate (see note in \[Cloudflare\]({{#relref "cloudflare"}})).
+When visiting kshlm.in, content might be served from Cloudflare's CDN servers with Cloudflare SNI certificate (see note in [Cloudflare]({{< relref "cloudflare" >}})).
 The Let's Encrypt certificate is used to ensure that Cloudflare's Full SSL (Strict) option works correctly.
 
 ### Scaleway
