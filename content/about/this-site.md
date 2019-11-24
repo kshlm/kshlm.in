@@ -15,7 +15,7 @@ Some of these might be a little too much for a small site like this, but I just 
 [Caddy](https://caddyserver.com/) is a really easy to use webserver used to serve this site.
 It serves HTTP2 by default and has [automatic HTTPS](https://caddyserver.com/docs/automatic-https).
 
-Caddy has been configured to serve the site over HTTP2 using \[TLS certificates\]({{<relref "#acmetool">}}) from \[Let's Encrypt\]({{<relref "#let-s-encrypt">}}).
+Caddy has been configured to serve the site over HTTP2 using [TLS certificates]({{<relref "#acmetool">}}) from [Let's Encrypt]({{<relref "#let-s-encrypt">}}).
 The git (with a Github hook) Caddy plugin, are used to automatically deploy updates to the site.
 
 Caddy has been installed using the [getcaddy.com](https://getcaddy.com) script, with the http.git, http.minify and a few other plugins enabled.
@@ -63,7 +63,7 @@ Github has been configured to notify Caddy via a webhook on updates to the repos
 [Let's Encrypt](https://letsencrypt.org/) is used to obtain the TLS certificates for kshlm.in and blog.kshlm.in.
 Let's Encrypt provides free and automated TLS certificates using the [ACME protocol](https://github.com/letsencrypt/acme-spec).
 
-When visiting kshlm.in, content might be served from Cloudflare's CDN servers with Cloudflare SNI certificate (see note in [Cloudflare]({{< relref "cloudflare" >}})).
+When visiting kshlm.in, content might be served from Cloudflare's CDN servers with Cloudflare SNI certificate (see note in [Cloudflare]({{< relref "#cloudflare" >}})).
 The Let's Encrypt certificate is used to ensure that Cloudflare's Full SSL (Strict) option works correctly.
 
 ### Scaleway
