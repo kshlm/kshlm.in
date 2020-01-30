@@ -2,7 +2,6 @@
 aliases = []
 author = "Kaushal"
 date = 2020-01-29T18:30:00Z
-draft = true
 slug = ""
 tags = []
 title = "A Long Term Update"
