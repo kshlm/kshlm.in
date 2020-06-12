@@ -26,10 +26,8 @@ jobs:
         cp -a .forestry/admin public
     - name: Deploy to kshlm.github.com
       uses: JamesIves/github-pages-deploy-action@releases/v3
-      env:
-        RUNNER_DEBUG: true  
       with:
-        ACCESS_TOKEN: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         REPOSITORY_NAME: kshlm/kshlm.github.io
         BRANCH: master
         FOLDER: public
