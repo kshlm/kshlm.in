@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     env:
-      CNAME: ${{ secrets.DNS_RECORD }}
+      CNAME: ${{ secrets.CF_ZONE }}
     steps:
     - name: Download saved site
       uses: actions/download-artifact@v2
@@ -57,6 +57,8 @@ jobs:
       IPFS_DEPLOY_CLOUDFLARE__API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       IPFS_DEPLOY_CLOUDFLARE__ZONE: ${{ secrets.CF_ZONE }}
       IPFS_DEPLOY_CLOUDFLARE__RECORD: ${{ secrets.DNS_RECORD }}
+      IPFS_DEPLOY_PINATA__API_KEY: ${{ secrets.PINATA_API_KEY }}
+      IPFS_DEPLOY_PINATA__SECRET_API_KEY: ${{ secrets.PINATA_API_SECRET }}
     steps:    
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4    
@@ -84,7 +86,7 @@ jobs:
           name: public
           path: public
       - name: Run ipfs-deploy
-        run: ipfs-deploy -C -O -d cloudflare public
+        run: ipfs-deploy -C -O -d cloudflare -p pinata public
   
   delete-artifacts:
     runs-on: ubuntu-latest
