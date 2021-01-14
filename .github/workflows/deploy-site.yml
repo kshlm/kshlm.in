@@ -43,6 +43,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: public
+        path: public
     - name: Deploy to kshlm.github.io
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
@@ -85,6 +86,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: public
+          path: public
       - name: Run ipfs-deploy
         run: ipfs-deploy -C -O -d cloudflare public
   
