@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["video"]
 date = 2011-08-05T04:39:22Z
 draft = false

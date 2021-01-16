@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 date = 2010-08-01T07:55:14Z
 draft = false
 slug = "upception-trailer-3-hd-recut-mash-up"

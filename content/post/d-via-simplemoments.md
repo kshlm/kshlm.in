@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["comic", "webcomic", "simplemoments"]
 date = 2010-06-12T10:59:28Z
 draft = false

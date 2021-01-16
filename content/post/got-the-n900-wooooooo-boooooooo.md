@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["internship", "nokia"]
 date = 2010-06-24T16:21:32Z
 draft = false

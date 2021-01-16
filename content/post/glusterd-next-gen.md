@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["gluster", "glusterfs", "glusterd", "glustersummit", "glustersummit2015"]
 date = 2015-05-13T14:14:16Z
 draft = false

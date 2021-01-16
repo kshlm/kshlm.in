@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 date = 2010-05-11T15:50:00Z
 draft = false
 slug = "a-brief-incomplete-and-mostly-wrong-history-of"

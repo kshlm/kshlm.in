@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["linux", "distros", "arch", "arch linux"]
 date = 2010-06-09T14:05:00Z
 draft = false

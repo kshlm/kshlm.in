@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["programming", "gluster", "code", "golang"]
 date = 2013-11-19T18:12:18Z
 draft = false

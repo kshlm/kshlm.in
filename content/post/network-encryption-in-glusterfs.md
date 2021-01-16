@@ -1,5 +1,5 @@
 +++
-author = "Kaushal"
+
 categories = ["gluster", "glusterfs", "ssl", "encryption", "howto", "setup", "tls"]
 date = 2015-05-07T14:44:30Z
 draft = false
