@@ -87,7 +87,7 @@ jobs:
           name: public
           path: public
       - name: Run ipfs-deploy
-        run: ipfs-deploy -C -O -d cloudflare -p pinata public
+        run: ipfs-deploy -C -O -d cloudflare -u pinata -p infura public
 
   delete-artifacts:
     runs-on: ubuntu-latest
