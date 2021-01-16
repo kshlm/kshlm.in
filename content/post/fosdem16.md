@@ -1,14 +1,14 @@
 +++
-
 categories = ["gluster", "fosdem", "fosdem'16"]
 date = 2016-02-16T12:53:48Z
 draft = false
-image = "/images/2016/02/flyerfosdem.png"
 slug = "fosdem16"
 tags = ["gluster", "fosdem", "fosdem'16"]
 title = "Gluster (and me) @ FOSDEM'16"
 aliases = ["fosdem16"]
-
+showtoc = true
+[cover]
+  image = "/images/2016/02/flyerfosdem.png"
 +++
 
 My first [FOSDEM](https://fosdem.org/2016/), and it was awesome. I got to meet a lot of GlusterFS users and understood a lot about how they use GlusterFS. And I also got to meet and hear Gophers at the Go Devroom. Thank you Red Hat for sponsoring my trip here.

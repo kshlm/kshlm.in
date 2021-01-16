@@ -3,7 +3,8 @@ categories = ["gluster"]
 date = 2018-02-26T11:59:31Z
 tags = ["gluster", "glusterd", "glusterd2", "gd2", "gluster-4.0"]
 title = "GlusterD2"
-
+showtoc = true
+tocopen = true
 +++
 > Note: As of early 2019, development on GD2 has stopped and is no longer maintained. The GD2 developers and maintainers, including me, have moved on to other projects.
 
