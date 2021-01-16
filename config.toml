@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "/"
 languageCode = "en"
 title = "kshlm's blog"
 
@@ -30,8 +30,8 @@ buildExpired = false
   apple_touch_icon = "/apple-touch-icon.png"
 
 [params.label]
-  #icon = "/apple-touch-icon.png"
-  #iconHeight = 32
+  icon = "/apple-touch-icon.png"
+  iconHeight = 32
 
 [params.profileMode]
   enabled = true
