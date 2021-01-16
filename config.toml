@@ -1,22 +1,23 @@
 baseurl = ""
 languageCode = "en"
 title = "kshlm's blog"
-author = "Kaushal M"
 
 theme = "PaperMod"
+
 paginate = 10
 enableRobotsTXT = true
+enableEmoji  = true
+
 buildDrafts = false
 buildFutures = false
 buildExpired = false
 
 [params]
   env = "production"
-  author = "Kaushal M"
   description = "My (very) rarely updated blog about nothing in particular"
 
   comments = false
-  ShowReadingTime = false
+  ShowReadingTime = true
   ShowShareButtons = false
   defaultTheme = "auto"
   disableThemeToggle = false
@@ -29,12 +30,13 @@ buildExpired = false
   apple_touch_icon = "/apple-touch-icon.png"
 
 [params.label]
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
+  #icon = "/apple-touch-icon.png"
+  #iconHeight = 32
 
 [params.profileMode]
   enabled = true
   title = "kshlm's blog"
+  subtitle = "My (very) rarely updated blog about nothing in particular"
   image = "/apple-touch-icon.png"
   imageWidth = 120
   imageHeight = 120
@@ -66,7 +68,7 @@ buildExpired = false
 [params.cover]
   hidden = true
   hiddenInList = true
-  hiddenInSingle = true
+  hiddenInSingle = false
 
 [[menu.main]]
   identifier = "archives"

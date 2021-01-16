@@ -1,9 +1,6 @@
 +++
-date = 2019-11-24T06:50:00Z
-slug = "this-site"
 tags = ["tools", "services"]
 title = "About this site"
-
 +++
 This page contains the list of the awesome free tools and services being used to serve this site.
 
