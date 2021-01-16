@@ -4,7 +4,7 @@ title = "kshlm's blog"
 author = "Kaushal M"
 
 theme = "PaperMod"
-paginate = 5
+paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFutures = false
@@ -84,6 +84,3 @@ buildExpired = false
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
-[taxonomies]
-  tag = "tags"
