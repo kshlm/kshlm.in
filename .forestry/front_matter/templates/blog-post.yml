@@ -5,21 +5,27 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Post Title
 - type: datetime
   name: date
-  label: date
+  label: Post Date
+  default: now
 - type: list
   name: tags
-  label: tags
-- type: text
-  name: author
-  label: author
+  label: Tags
+  config:
+    use_select: false
 - type: text
   name: slug
-  label: slug
+  label: Slug
 - type: list
   name: aliases
-  label: aliases
+  label: Aliases
+- name: showtoc
+  type: boolean
+  label: Show TOC
+- name: tocopen
+  type: boolean
+  label: Open TOC by default
 pages:
 - content/post/a-long-term-update.md
