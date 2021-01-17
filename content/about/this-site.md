@@ -1,6 +1,7 @@
 +++
 tags = ["tools", "services"]
 title = "About this site"
+
 +++
 This page contains the list of the awesome free tools and services being used to serve this site.
 
@@ -13,8 +14,6 @@ The contents of the site are version controlled using [Git](https://git-scm.com/
 ### Hugo
 
 [Hugo](https://gohugo.io/) is the really awesome static site generator used to generate this site from markdown files stored in Git.
-
-The site uses a modified version of the [Indigo](https://github.com/AngeloStavrow/indigo) theme.
 
 ## Services
 
