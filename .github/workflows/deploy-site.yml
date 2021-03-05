@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: IPFS Deploy
 on:
   push:
     branches:
@@ -27,26 +27,6 @@ jobs:
       with:
         name: public
         path: public/
-
-  deploy-gh-pages:
-    runs-on: ubuntu-latest
-    needs: build
-    env:
-      CNAME: ${{ secrets.CF_ZONE }}
-    steps:
-    - name: Download saved site
-      uses: actions/download-artifact@v2
-      with:
-        name: public
-        path: public
-    - name: Deploy to kshlm.github.io
-      uses: peaceiris/actions-gh-pages@v3.7.3
-      with:
-        publish_dir: public
-        cname: ${{ env.CNAME }}
-        external_repository: kshlm/kshlm.github.io
-        publish_branch: master
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
   deploy-ipfs:
     runs-on: ubuntu-latest
