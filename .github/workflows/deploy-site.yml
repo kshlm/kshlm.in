@@ -72,7 +72,6 @@ jobs:
     runs-on: ubuntu-latest
     if: always()
     needs:
-    - deploy-gh-pages
     - deploy-ipfs
     steps:
       - name: Delete saved build artifacts
