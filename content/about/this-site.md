@@ -15,11 +15,15 @@ The contents of the site are version controlled using [Git](https://git-scm.com/
 
 [Hugo](https://gohugo.io/) is the really awesome static site generator used to generate this site from markdown files stored in Git.
 
+### IPFS
+
+This site is also deployed to [IPFS](https://ipfs.io/) and available at [ipns://kshlm.in/](ipns://kshlm.in/).
+
 ## Services
 
 ### Cloudflare
 
-[Cloudflare](https://www.cloudflare.com/) is used as the DNS provider for the site.
+[Cloudflare](https://www.cloudflare.com/) is used as the DNS provider for the site. [Cloudflare Pages](https://pages.cloudflare.com/) to build and serve the static site.
 
 ### Forestry
 
@@ -29,10 +33,10 @@ The contents of the site are version controlled using [Git](https://git-scm.com/
 
 [Github](https://github.com/) provides git hosting. The source for the site (and the Hugo configuration) are available at [kshlm/kshlm.in](https://github.com/kshlm/kshlm.in).
 
-#### Github Pages
-
-This static site is hosted on [Github Pages](https://pages.github.com "Github Pages") and served from a custom domain with HTTPS enforced.
-
 #### Github Actions
 
-A [Github Actions](https://github.com/features/actions "Github Actions") [workflow](https://github.com/kshlm/kshlm.in/blob/master/.github/workflows/gh-pages.yml) is used to build and deploy this site into Github Pages. It uses [peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo) and [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) actions to perform the build and deploy.
+A [Github Actions](https://github.com/features/actions "Github Actions") [workflow](https://github.com/kshlm/kshlm.in/blob/master/.github/workflows/gh-pages.yml) is used to build and deploy this site into Github Pages. It uses the [peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo) action to build and a custom deploy-ipfs job using [ipfs-deploy](https://github.com/ipfs-shipyard/ipfs-deploy) do deploy the site to IPFS.
+
+### Infura / Pinata
+
+IPFS pinning services provided [Infura](https://infura.io/) and [Pinata](https://pinata.cloud/) are used to make this site available on IPFS.
