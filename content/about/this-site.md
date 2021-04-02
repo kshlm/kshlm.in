@@ -17,13 +17,13 @@ The contents of the site are version controlled using [Git](https://git-scm.com/
 
 ### IPFS
 
-This site is deployed to [IPFS](https://ipfs.io/) and available at [ipns://kshlm.in/](ipns://kshlm.in/).
+This site is also deployed to [IPFS](https://ipfs.io/) and available at [ipns://kshlm.in/](ipns://kshlm.in/).
 
 ## Services
 
 ### Cloudflare
 
-[Cloudflare](https://www.cloudflare.com/) is used as the DNS provider for the site. [Cloudflare IPFS gateway](https://cloudflare-ipfs.com) is used to serve the IPFS site to the general web.
+[Cloudflare](https://www.cloudflare.com/) is used as the DNS provider for the site. [Cloudflare Pages](https://pages.cloudflare.com/) to build and serve the static site.
 
 ### Forestry
 
