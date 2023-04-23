@@ -16,14 +16,14 @@ jobs:
         lfs: true
         submodules: recursive
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.4.13
+      uses: peaceiris/actions-hugo@v2.6.0
       with:
         extended: true
     - name: Build site
       run: |
         hugo --minify
     - name: Save built site for deployment
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3.1.2
       with:
         name: public
         path: public/
@@ -33,7 +33,7 @@ jobs:
     needs: build
     env:
       NPM_PACKAGES:  .npm_packages
-      IPFS_DEPLOY_VERSION: 8.0.1
+      IPFS_DEPLOY_VERSION: 12.0.1
       IPFS_DEPLOY_CLOUDFLARE__API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       IPFS_DEPLOY_CLOUDFLARE__ZONE: ${{ secrets.CF_ZONE }}
       IPFS_DEPLOY_CLOUDFLARE__RECORD: ${{ secrets.DNS_RECORD }}
@@ -41,7 +41,7 @@ jobs:
       IPFS_DEPLOY_PINATA__SECRET_API_KEY: ${{ secrets.PINATA_API_SECRET }}
     steps:
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.5.2
       - name: Setup non-root `npm install -g`
         run: |
           mkdir ~/$NPM_PACKAGES
@@ -53,20 +53,17 @@ jobs:
           value: $PATH:$HOME/$NPM_PACKAGES/bin
       - name: Restore cache
         id: cache
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.8
         with:
           path: ~/${{ env.NPM_PACKAGES }}
           key: ${{ runner.os }}-ipfs-deploy-${{ env.IPFS_DEPLOY_VERSION }}
-      - name: Install ipfs-deploy
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: npm install -g ipfs-deploy@${{ env.IPFS_DEPLOY_VERSION }}
       - name: Download saved site
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v2.1.1
         with:
           name: public
           path: public
       - name: Run ipfs-deploy
-        run: ipfs-deploy -C -O -d cloudflare -u pinata -p infura public
+        run: npx ipfs-deploy -C -O -d cloudflare -u pinata -p infura public
 
   delete-artifacts:
     runs-on: ubuntu-latest
@@ -75,7 +72,7 @@ jobs:
     - deploy-ipfs
     steps:
       - name: Delete saved build artifacts
-        uses: GeekyEggo/delete-artifact@v1.0.0
+        uses: GeekyEggo/delete-artifact@v2.0.0
         with:
           name: public
           failOnError: false
