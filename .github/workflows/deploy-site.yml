@@ -57,13 +57,16 @@ jobs:
         with:
           path: ~/${{ env.NPM_PACKAGES }}
           key: ${{ runner.os }}-ipfs-deploy-${{ env.IPFS_DEPLOY_VERSION }}
+      - name: Install ipfs-deploy
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install -g ipfs-deploy@${{ env.IPFS_DEPLOY_VERSION }}
       - name: Download saved site
         uses: actions/download-artifact@v2.1.1
         with:
           name: public
           path: public
       - name: Run ipfs-deploy
-        run: npx ipfs-deploy -C -O -d cloudflare -u pinata -p infura public
+        run: ipfs-deploy -C -O -d cloudflare -u pinata -p infura public
 
   delete-artifacts:
     runs-on: ubuntu-latest
