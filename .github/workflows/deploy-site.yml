@@ -44,7 +44,7 @@ jobs:
         uses: actions/setup-node@v2.5.2
       - name: Setup non-root `npm install -g`
         run: |
-          mkdir ~/$NPM_PACKAGES
+          mkdir -p ~/$NPM_PACKAGES/lib
           npm config set prefix ~/$NPM_PACKAGES
       - name: Update PATH
         uses: myci-actions/export-env-var@1
